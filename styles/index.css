@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body{
+    background-image: url('../images/fundo.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.container {
+    font-family: 'Fuzzy Bubbles', cursive;
+    max-width: 300px;
+    margin:auto;
+    background-color:#1f5ca1ef;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 3px 6px 21px 18px rgba(0,0,0,0.72);
+    -moz-box-shadow: 3px 6px 21px 18px rgba(0,0,0,0.72);
+    box-shadow: 3px 6px 21px 18px rgba(0,0,0,0.72); 
+
+}
