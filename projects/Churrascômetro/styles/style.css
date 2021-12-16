@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body {
+    background-image: url("../images/churras.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 300px;
+    margin:auto;
+    background-color:#1f5ca1ef;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 3px 6px 21px 18px rgba(0,0,0,0.72);
+    -moz-box-shadow: 3px 6px 21px 18px rgba(0,0,0,0.72);
+    box-shadow: 3px 6px 21px 18px rgba(0,0,0,0.72);
+
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+
+button {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#337fed;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    text-shadow:inset 0px 1px 0px #1570cd;
+    background:linear-gradient(#3d94f6, #1e62d0);
+    
+}
+  
+  button:hover {
+    background: linear-gradient(#1e62d0, #3d94f6);
+  }
+
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color:rgba(122, 4, 4, 0.959);
+    font-family: 'Fuzzy Bubbles', cursive;
+}
